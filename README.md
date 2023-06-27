@@ -53,11 +53,10 @@ npm start
 ```
 ### Insert data row from json that emulator my league
 Send GET request to http://localhost:3000/insert  
-If your response is html that my home page, it was success, otherwise it may fail. Please let we know if you have a problem at any step.
+If your response is html that my home page, it was successful, otherwise it may fail. Please let we know if you have a problem at any step.
 ## II. Assignment Sheet:
-| Desciption | MSSV | Member|
-| --- | ----------- |-------|
-| Front-end | 20120367 |<a href='https://github.com/TamaKhank02'>@TamaKhank02</a>
-| Back-end | 20120157 |<a href='https://github.com/phats02'>@phats02</a>|
-|Create data to emulator league|20120576|<a href='https://github.com/thach030103'>@thach030103</a>|
-|Create and manager database|20120151|<a href='https://github.com/nthanhnhan-dev'>@nthanhnhan-dev</a>|
+| Description | MSSV | 
+| --- | ----------- |
+| Front-end | 20120367 |
+| Back-end | 20120157 |
+|Create, manage database and fake data to emulator league|20120134|
