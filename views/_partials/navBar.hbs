@@ -1,0 +1,65 @@
+<nav>
+    <a href="/"><img src="/icon.png" alt="" class="navIcon"></a>
+    {{#if account}}
+    <div class="display-5">Chào <a href="/admin"><em>{{account}} </em></a>,<a href="/logout" class="text-dark">đăng xuất</a> </div>
+    {{else}}
+    <div><button> <a href="/login">Đăng nhập</a></button></div>
+    {{/if}}
+</nav>
+
+<style>
+    a {
+       color: inherit;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    .navIcon {
+        width: 8vw;
+        height: 12vh;
+    }
+
+    nav {
+        padding-top: 2vh;
+        margin-left: 5%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 8vw;
+        height: 8vh;
+
+        background: #d9d9d9de;
+        border: 1px solid #656262;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1vw;
+        line-height: 1vw;
+        align-items: center;
+        text-align: center;
+
+        color: #E32B19;
+        transition: all 0.3s ease-in-out;
+
+
+    }
+    button:hover{
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        
+    }
+</style>
