@@ -57,7 +57,6 @@ Nếu response là trang html của home page việc thêm dữ liệu đã thà
 ## II. Bảng phân công:
 | Mô tả công việc | MSSV | Thành viên|
 | --- | ----------- |-------|
-| Front-end | 20120367 |<a href='https://github.com/TamaKhank02'>@TamaKhank02</a>
-| Back-end | 20120157 |<a href='https://github.com/phats02'>@phats02</a>|
-|Create data to emulator league|20120576|<a href='https://github.com/thach030103'>@thach030103</a>|
-|Create and manager database|20120157|<a href='https://github.com/nthanhnhan-dev'>@nthanhnhan-dev</a>|
+| Front-end | 20120367 |
+| Back-end | 20120157 |
+|Create, manage database and fake data to emulator league|20120134|
